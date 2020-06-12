@@ -1,0 +1,207 @@
+body {
+    line-height: 1;
+    background: rgba(236, 233, 237, 1);
+}
+img {
+    vertical-align: bottom;
+}
+.container{
+	width: 1202px;
+	margin: 0 auto;
+}
+.header img{
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+.logo {
+    width: 236px;
+    height: 70px;
+    margin-top: 14px;
+}
+.nav {
+    margin-top: 20px;
+}
+.nav li {
+    float: left;
+    padding-left: 30px;
+}
+.nav .first{
+	padding-left: 40px;
+}
+.nav a {
+    display: block;
+    width: 80px;
+    height: 18px;
+    text-align: center;
+    margin-top: 55px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: 350;
+    color: black;
+    border-bottom: 2px solid #ECE9ED;
+}
+.nav a:hover{
+	border-bottom: 2px solid rgba(46, 187, 204, 1);
+}
+.form {
+	padding-top: 52px;
+	padding-left: 40px;
+}
+.form * {
+    float: left;
+    vertical-align: middle;
+}
+.form .search {
+    width: 150px;
+    height: 6px;
+    border: 1px solid rgba(46, 187, 204, 1);
+    padding: 9px;
+}
+.form .submit {
+    width: 26px;
+    height: 26px;
+    border: 1px solid rgba(46, 187, 204, 1);
+    background: rgba(46, 187, 204, 1) url(../images/search.png) no-repeat center center;
+    cursor: pointer;
+}
+:focus {
+    outline: none;
+}
+.banner{
+	height: 420px;
+	background: rgba(243, 245, 247, 1) url(../images/电商渐变绿色.png) no-repeat center center;
+	position: relative;
+}
+.banner img{
+	height: 420px;
+    width: 1150px;
+    position: absolute;
+}
+.list{
+	height: 420px;
+	width: 210px;
+	background-color: rgba(211, 211, 204, 0.7);
+	position: absolute;
+}
+.list ul{
+	padding-left: 40px;
+	padding-top: 32px;
+	padding-bottom: 42px;
+	height: 320px;
+
+}
+.list li{
+	width: 120px;
+	height: 50px;
+}
+.list li a{
+   font-size:18px;
+   font-weight:400;
+   color:rgba(255,255,255,1);
+}
+.list li a:hover{
+	color: rgba(51, 160, 157, 1);
+}
+.middle{
+	padding-top:40px;
+	position: relative;
+}
+.middle img{
+	height: 450px;
+	width: 680px;
+}
+.main{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    width: 350px;
+    height: 435px;
+    background: #FFFFFF;
+    position: absolute;
+    right: 15%;
+    top: 8%;
+}
+.title {
+width: 100%;
+height: 40px;
+line-height: 40px;
+}
+.title span {
+font-size: 18px;
+color: #353f42;
+}
+.title-msg {
+width: 100%;
+height: 64px;
+line-height: 64px;
+}
+.title:hover{
+cursor: default ;
+}
+.title-msg:hover{
+cursor: default ;
+}
+.title-msg span {
+font-size: 12px;
+color: #707472;
+}
+.input-content {
+width: 100%;
+height: 120px;
+}
+.input-content input {
+width: 330px;
+height: 40px;
+border: 1px solid #dad9d6;
+background: #ffffff;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 20px;
+}
+.enter-btn {
+width: 350px;
+height: 40px;
+color: #fff;
+background: #0bc5de;
+line-height: 40px;
+text-align: center;
+border: 0px;
+}
+.foor{
+width: 100%;
+height: auto;
+color: #9b9c98;
+font-size: 12px;
+margin-top: 40px;
+}
+.enter-btn:hover {
+cursor:pointer;
+background: #1db5c9;
+}
+.foor div:hover {
+cursor:pointer;
+color: #484847;
+font-weight: 600;
+}
+.left{
+float: left;
+}
+.right{
+float: right;
+}
+.one{
+	width: 600px;
+    height: 350px;
+}
+.two{
+	width: 270px;
+	height: 350px;
+	padding-left: 5px;
+}
+.bottom{
+	padding-top: 40px;
+}
+.bottom li{
+	text-align: center;
+}
